@@ -8,11 +8,11 @@ datasource db {
 }
 
 model Product {
-  id       Int     @id @default(autoincrement())
-  name     String 
-  price    Decimal
-  quantity Int
-  description String 
+  id          Int     @id @default(autoincrement())
+  name        String
+  price       Decimal
+  quantity    Int
+  description String
 
   @@unique([name])
 }
