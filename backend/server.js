@@ -1,17 +1,18 @@
-import RouteProduct from './Route/RouteProduct.js'
 import express from 'express'
 import dotenv from 'dotenv'
+import RouteRequest from './Route/RouteRequest.js'
+import RouteProduct from './Route/RouteProduct.js'
 
 dotenv.config()
 
-const PORT=process.env.PORT 
-const app= express()
+const app = express()
+const PORT = process.env.PORT
 
 app.use(express.json())
 
-app.use('/',RouteProduct)
+app.use('/', RouteProduct)
+app.use('/', RouteRequest)
 
-app.listen(PORT,()=>{
-    console.log(`executing server in http://localhost:${PORT}`);
-    
+app.listen(PORT, () => {
+  console.log(`Server running on http://localhost:${PORT}`)
 })

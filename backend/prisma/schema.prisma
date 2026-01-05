@@ -8,11 +8,26 @@ datasource db {
 }
 
 model Product {
-  id          Int     @id @default(autoincrement())
-  name        String
-  price       Decimal
+  id          Int       @id @default(autoincrement())
+  name        String    @unique
+  price       Float
   quantity    Int
-  description String
+  description String?
 
-  @@unique([name])
+  requests    Request[]
+
+  createdAt   DateTime  @default(now())
+  updatedAt   DateTime  @updatedAt
+}
+
+model Request {
+  id        Int      @id @default(autoincrement())
+
+  productId Int
+  product   Product @relation(fields: [productId], references: [id])
+
+  quantity  Int
+  total     Float
+
+  createdAt DateTime @default(now())
 }
