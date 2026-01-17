@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react"
-import { getAllProducts } from "../../services/ProductsService"
+import { getAllProducts } from "../services/ProductsService"
 
 function ProductsPage() {
   const [products, setProducts] = useState([])
@@ -15,7 +15,7 @@ function ProductsPage() {
 
   return (
     <div>
-      <h1>Produtos - Mary’s Coffee</h1>
+
 
       {products.length === 0 ? (
         <p>Nenhum produto encontrado</p>

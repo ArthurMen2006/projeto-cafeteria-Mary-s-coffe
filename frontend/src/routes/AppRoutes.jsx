@@ -1,14 +1,12 @@
-import { BrowserRouter, Route, Routes } from 'react-router-dom'
-import ProductsPage from "../pages/products/ProductsPage"
+import { Route, Routes } from 'react-router-dom'
+import ProductsPage from "../pages/ProductsPage"
 
 function AppRoutes() {
     return (
         <>
-            <BrowserRouter>
-                <Routes>
-                    <Route path='/' element={<ProductsPage />}></Route>
-                </Routes>
-            </BrowserRouter>
+            <Routes>
+                <Route path='/' element={<ProductsPage />}></Route>
+            </Routes>
         </>
 
     )

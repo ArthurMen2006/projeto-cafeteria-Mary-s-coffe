@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header {
+ display: flex;
+ background-color: rgb(204, 114, 79);
+ padding: 20px;
+ border-bottom-left-radius: 20px;
+ border-bottom-right-radius: 20px;
+ position: sticky;
+}
+
+
+header p{
+    margin-left: 300px;
+    padding: 10px;
+    cursor: pointer;
+
+}
+header a{
+    text-decoration: none;
+    color: white;
+}
+header a:hover{
+    color: black;
+    transition: 0.5s;
+}
