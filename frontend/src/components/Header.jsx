@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom'
-import './Header.css'
+import '../styles/Header.css'
 
 function Header(){
     return(
@@ -7,9 +7,9 @@ function Header(){
             <h2 className="logo">Mary's Coffee ☕</h2>
 
             <p><Link to="/">Início</Link></p>
-            <p><Link to="/sobre">Sobre</Link></p>
-            <p> <Link to="/produtos">Cardápio</Link></p>
-            <p><Link to="/carrinho">Carrinho</Link></p>
+            <p><a href='/#about'>Sobre</a></p>
+            <p> <a href="/#product">Cardápio</a></p>
+            <p><Link to="/cart">Carrinho</Link></p>
           
 
          

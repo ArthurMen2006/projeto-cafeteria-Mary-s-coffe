@@ -6,14 +6,21 @@ header {
  display: flex;
  background-color: rgb(204, 114, 79);
  padding: 20px;
- border-bottom-left-radius: 20px;
- border-bottom-right-radius: 20px;
- position: sticky;
+ width: 100%;
+ position: fixed;
+}
+header h2{
+    color: white;
+    margin-left: 100px;
+    margin-right: 250px;
+    background-color: rgb(165, 77, 42);
+    text-align: center;
+    width: 300px;
+    border-radius: 20px;
 }
 
-
 header p{
-    margin-left: 300px;
+    margin-left: 200px;
     padding: 10px;
     cursor: pointer;
 

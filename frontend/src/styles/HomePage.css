@@ -1,0 +1,20 @@
+section {
+  padding: 80px; 
+}
+
+
+.image {
+    width: 100%;
+  
+}
+
+
+.about {
+  background-color: #5d4037;
+  color: white;
+  text-align: center;
+}
+
+.menu {
+  background-color: #fff;
+}
