@@ -4,19 +4,22 @@
 }
 header {
  display: flex;
- background-color: rgb(204, 114, 79);
- padding: 20px;
+ background-color: rgb(202, 109, 72);
+ padding-top: 20px;
+ padding-bottom: 20px;
  width: 100%;
  position: fixed;
+ z-index: 2;
 }
 header h2{
     color: white;
-    margin-left: 100px;
-    margin-right: 250px;
+   
+    margin-right: 350px;
     background-color: rgb(165, 77, 42);
     text-align: center;
     width: 300px;
-    border-radius: 20px;
+    border-bottom-right-radius: 25px;
+    border-top-right-radius: 25px;
 }
 
 header p{

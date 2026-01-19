@@ -1,12 +1,9 @@
 import '../styles/HomePage.css'
-import CoffeImage from '../assents/images/CoffeImage.jpg'
 
 function HomePage() {
   return (
     <>
-        <div className='coffeimage'>
-            <img src={CoffeImage} className='image' />
-        </div>
+     
             
 
       <section className="about">
