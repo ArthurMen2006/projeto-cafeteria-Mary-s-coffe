@@ -1,0 +1,56 @@
+.menu {
+    padding: 80px 10%;
+    background-color: #fff;
+    max-width: 100%;
+}
+
+.menu h2 {
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 50px;
+}
+
+.menuList {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.menuCard {
+    background: #f8f5f2;
+    padding: 25px;
+    border-radius: 20px;
+    width: 27.4%;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.menuCard img{
+    width: 100%;
+    border-radius: 20px;
+}
+
+.menuCard h3 {
+    margin-bottom: 10px;
+}
+
+.menuCard p {
+    margin-bottom: 15px;
+    color: #555;
+}
+
+.menuCard button {
+    width: 90px;
+    height: 30px;
+    border-radius: 10px;
+    margin-top: 15px;
+    cursor: pointer;
+    background-color: rgb(156, 82, 53);
+    color: #fff;
+    border: solid 2px rgb(128, 60, 34);
+}
+.menuCard button:hover{
+    background-color: rgb(128, 60, 34);
+}

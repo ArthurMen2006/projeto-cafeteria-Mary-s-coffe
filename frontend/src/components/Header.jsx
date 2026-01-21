@@ -1,20 +1,16 @@
-import { Link } from 'react-router-dom'
+
 import '../styles/Header.css'
 
-function Header(){
+function header(){
     return(
         <header >
             <h2 className="logo">Mary's Coffee ☕</h2>
-
-            <p><Link to="/">Início</Link></p>
+            <p><a href="/#home">Início</a></p>
             <p><a href='/#about'>Sobre</a></p>
-            <p> <a href="/#product">Cardápio</a></p>
-            <p><Link to="/cart">Carrinho</Link></p>
-          
-
-         
+            <p><a href="/#menu">Cardápio</a></p>
+            <p><a href="/cart">Carrinho</a></p>
         </header>
     )
 }
 
-export default Header
+export default header

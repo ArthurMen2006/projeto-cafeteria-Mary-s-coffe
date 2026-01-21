@@ -1,15 +1,15 @@
 import { BrowserRouter } from 'react-router-dom'
 import AppRoutes from "./routes/AppRoutes"
 import Header from "./components/Header"
-import HomeSlider from "./components/HomeSlider"
+import About from './components/About'
 
 function App() {
   return (
     <>
       <BrowserRouter>
         <Header />
-        <HomeSlider/>
         <AppRoutes />
+        
       </BrowserRouter>
 
 

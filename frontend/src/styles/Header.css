@@ -1,38 +1,45 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
-header {
- display: flex;
- background-color: rgb(202, 109, 72);
- padding-top: 20px;
- padding-bottom: 20px;
- width: 100%;
- position: fixed;
- z-index: 2;
+html{
+    scroll-behavior: smooth;
 }
-header h2{
+
+header {
+    display: flex;
+    background-color: rgb(156, 82, 53);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 100%;
+    position: fixed;
+    z-index: 2;
+}
+
+header h2 {
     color: white;
-   
+
     margin-right: 350px;
-    background-color: rgb(165, 77, 42);
+    background-color: rgb(128, 60, 34);
     text-align: center;
     width: 300px;
     border-bottom-right-radius: 25px;
     border-top-right-radius: 25px;
 }
 
-header p{
+header p {
     margin-left: 200px;
     padding: 10px;
     cursor: pointer;
 
 }
-header a{
+
+header a {
     text-decoration: none;
     color: white;
 }
-header a:hover{
+
+header a:hover {
     color: black;
     transition: 0.5s;
 }
