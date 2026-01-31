@@ -14,10 +14,19 @@ header {
     width: 100%;
     position: fixed;
     z-index: 2;
+    color: white;
 }
 
+header img{
+    
+    height: 14px;
+    
+}
+header strong{
+    margin-left: 5px;
+}
 header h2 {
-    color: white;
+  
 
     margin-right: 350px;
     background-color: rgb(128, 60, 34);
@@ -28,7 +37,7 @@ header h2 {
 }
 
 header p {
-    margin-left: 200px;
+    margin-left: 180px;
     padding: 10px;
     cursor: pointer;
 

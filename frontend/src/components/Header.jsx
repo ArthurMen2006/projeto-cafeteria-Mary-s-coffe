@@ -1,4 +1,4 @@
-
+import Carrinho from "../assents/images/carrinho.png"
 import '../styles/Header.css'
 
 function header(){
@@ -8,7 +8,7 @@ function header(){
             <p><a href="/#home">Início</a></p>
             <p><a href='/#about'>Sobre</a></p>
             <p><a href="/#menu">Cardápio</a></p>
-            <p><a href="/cart">Carrinho</a></p>
+            <p><a href="/cart">Carrinho </a> <img src={Carrinho} alt="carrinho" /><strong>0</strong></p>
         </header>
     )
 }
