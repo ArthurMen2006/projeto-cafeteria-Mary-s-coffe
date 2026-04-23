@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+header {
+    display: flex;
+    background-color: rgb(156, 82, 53);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 100%;
+    position: fixed;
+    z-index: 2;
+    color: white;
+}
+
+header img{
+    
+    height: 14px;
+    
+}
+header strong{
+    margin-left: 5px;
+}
+header h2 {
+  
+
+    margin-right: 350px;
+    background-color: rgb(128, 60, 34);
+    text-align: center;
+    width: 300px;
+    border-bottom-right-radius: 25px;
+    border-top-right-radius: 25px;
+}
+
+header p {
+    margin-left: 180px;
+    padding: 10px;
+    cursor: pointer;
+
+}
+
+header a {
+    text-decoration: none;
+    color: white;
+}
+
+header a:hover {
+    color: black;
+    transition: 0.5s;
+}
