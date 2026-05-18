@@ -4,7 +4,7 @@ import '../styles/Header.css'
 function header(){
     return(
         <header >
-            <h2 className="logo">Mary's Coffee ☕</h2>
+            <h2 className="logo">Velvet Brew ☕</h2>
             <p><a href="/#home">Início</a></p>
             <p><a href='/#about'>Sobre</a></p>
             <p><a href="/#menu">Cardápio</a></p>
