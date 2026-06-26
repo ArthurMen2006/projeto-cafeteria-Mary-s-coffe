@@ -33,7 +33,7 @@ function menu() {
                     <div className='menuCard'>
                         <img src={Latte} alt="latte" />
                         <h3>Latte</h3>
-                        <p>Espresso delicado misturado ao leite vaporizado, 
+                        <p>Espresso misturado ao leite vaporizado, 
                             criando uma bebida cremosa, leve e perfeita para
                             qualquer momento do dia.</p>
                         <span>R$ 10,00</span>
