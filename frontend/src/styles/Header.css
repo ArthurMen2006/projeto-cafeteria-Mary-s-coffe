@@ -8,9 +8,10 @@ html{
 
 header {
     display: flex;
+    justify-content: space-between;
+    align-items: center;
     background-color: rgb(156, 82, 53);
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding:1% 0px 1% 0px; 
     width: 100%;
     position: fixed;
     z-index: 2;
@@ -26,19 +27,19 @@ header strong{
     margin-left: 5px;
 }
 header h2 {
-  
-
-    margin-right: 350px;
     background-color: rgb(128, 60, 34);
     text-align: center;
-    width: 300px;
-    border-bottom-right-radius: 25px;
-    border-top-right-radius: 25px;
+    padding: 0.5%;
+    border-top-right-radius:20px;
+    border-bottom-right-radius: 20px;
+
+
 }
 
+
 header p {
-    margin-left: 180px;
-    padding: 10px;
+
+    padding: 0px 100px;
     cursor: pointer;
 
 }
