@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(156, 82, 53);
+    padding:1% 0px 1% 0px; 
+    width: 100%;
+    position: fixed;
+    z-index: 2;
+    color: white;
+}
+
+header img{
+    
+    height: 14px;
+    
+}
+header strong{
+    margin-left: 5px;
+}
+header h2 {
+    background-color: rgb(128, 60, 34);
+    text-align: center;
+    padding: 0.5%;
+    border-top-right-radius:20px;
+    border-bottom-right-radius: 20px;
+
+
+}
+
+
+header p {
+
+    padding: 0px 100px;
+    cursor: pointer;
+
+}
+
+header a {
+    text-decoration: none;
+    color: white;
+}
+
+header a:hover {
+    color: black;
+    transition: 0.5s;
+}
