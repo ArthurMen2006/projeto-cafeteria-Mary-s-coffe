@@ -3,12 +3,14 @@ import About from '../components/About'
 import Menu from '../components/Menu'
 import Header from "../components/Header"
 import Footer from '../components/Footer'
+import { useState } from 'react'
 
 function HomePage() {
+  const [cartCount, setCartCount]=useState(0)
   return (
     <>
       <section >
-        <Header/>
+        <Header cartCount={cartCount}/>
       </section>
       <section id='home'>
         <Hero/>
@@ -18,7 +20,7 @@ function HomePage() {
         <About/>
       </section>
       <section id="menu">
-        <Menu/>
+        <Menu setCartCount={setCartCount}/>
       </section>
       <section>
         <Footer/>

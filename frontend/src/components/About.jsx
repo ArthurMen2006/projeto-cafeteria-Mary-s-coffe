@@ -7,9 +7,9 @@ function about() {
             <div className="about">
                 <div className="aboutContent">
                     <div className="aboutText">
-                        <h2>Sobre a Mary's Coffee</h2>
+                        <h2>Sobre a Velvet Brew</h2>
                         <p>
-                            A Mary’s Coffee nasceu do desejo de transformar o
+                            A Velvet Brew nasceu do desejo de transformar o
                             simples ato de tomar café em uma experiência especial
                             . Cada detalhe foi pensado para criar um ambiente
                             acolhedor, onde o aroma do café fresco, o cuidado no

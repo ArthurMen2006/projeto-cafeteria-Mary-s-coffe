@@ -6,7 +6,7 @@ function CartPage() {
       <div className="cartCard">
 
         <div className="cartHeader">
-          <h1>Mary’s Coffee ☕</h1>
+          <h1>Velvet Brew ☕</h1>
         </div>
 
         <section className="cartTable">

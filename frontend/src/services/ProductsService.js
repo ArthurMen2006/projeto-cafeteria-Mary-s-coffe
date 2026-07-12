@@ -1,10 +1,10 @@
 import axios from 'axios'
 
 const api= axios.create({
-    baseURL:"http://localhost:3001"
+    baseURL:"http://localhost:3000"
 })
 
 export async function getAllProducts() {
-    const response = await api.get("/products")
+    const response = await api.get("/product")
     return response.data
 } 
