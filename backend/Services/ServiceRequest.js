@@ -28,8 +28,8 @@ export async function create(data) {
   const request = await prisma.request.create({
     data: {
       quantity: data.quantity,
-      price: finalPrice,
-      product_id: data.product_id
+      total: finalPrice,
+      productId: data.product_id
     }
   })
 

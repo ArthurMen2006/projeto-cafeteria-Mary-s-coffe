@@ -17,7 +17,7 @@ const productImages = {
     "Bolo de Laranja": Bolo
 }
 
-function Menu({setCartCount}) {
+function Menu({setCart}) {
     const [products, setProducts] = useState([])
 
     useEffect(() => {
@@ -28,8 +28,8 @@ function Menu({setCartCount}) {
         fetchProducts()
     }, [])
 
-    function AddToCard(){
-        setCartCount((i)=> i+1)
+    function AddToCard(product){
+        setCart((i)=> [...i, product])
     }
 
     return (
@@ -43,7 +43,7 @@ function Menu({setCartCount}) {
                             <h3>{product.name}</h3>
                             <p>{product.description}</p>
                             <span>R$ {Number(product.price).toFixed(2)}</span>
-                            <button onClick={AddToCard}>Pedir</button>
+                            <button onClick={() => AddToCard(product)}>Pedir</button>
                         </div>
                     ))}
                 </div>

@@ -3,12 +3,12 @@ import HomePage from "../pages/HomePage"
 import CartPage from "../pages/CartPage"
 
 
-function AppRoutes() {
+function AppRoutes({cart, setCart}) {
     return (
         <>
             <Routes>
-                <Route path='/' element={<HomePage/>}></Route>
-                <Route path='/cart' element={<CartPage/>}></Route>
+                <Route path='/' element={<HomePage cart={cart} setCart={setCart}/>}></Route>
+                <Route path='/cart' element={<CartPage cart={cart} setCart={setCart} />}></Route>
             </Routes>
         </>
 
